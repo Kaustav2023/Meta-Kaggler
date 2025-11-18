@@ -1,0 +1,217 @@
+{
+  "run_id": "b1fda245",
+  "dataset_id": "uciml/iris",
+  "best_model": {
+    "model_id": "rf_default",
+    "model_type": "RandomForestClassifier",
+    "params": {
+      "n_estimators": 100,
+      "max_depth": 10,
+      "random_state": 42
+    },
+    "score": 0.9333,
+    "training_time": 0.28,
+    "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\rf_default.joblib",
+    "timestamp": "2025-11-18T00:41:01.238591"
+  },
+  "all_results": [
+    {
+      "model_id": "rf_default",
+      "model_type": "RandomForestClassifier",
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 10,
+        "random_state": 42
+      },
+      "score": 0.9333,
+      "training_time": 0.28,
+      "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\rf_default.joblib",
+      "timestamp": "2025-11-18T00:41:01.238591"
+    },
+    {
+      "model_id": "rf_deep",
+      "model_type": "RandomForestClassifier",
+      "params": {
+        "n_estimators": 200,
+        "max_depth": 20,
+        "random_state": 42
+      },
+      "score": 0.9333,
+      "training_time": 0.42,
+      "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\rf_deep.joblib"
+    },
+    {
+      "model_id": "logreg",
+      "model_type": "LogisticRegression",
+      "params": {
+        "max_iter": 1000,
+        "random_state": 42
+      },
+      "score": 0.9333,
+      "training_time": 0.03,
+      "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\logreg.joblib"
+    },
+    {
+      "model_id": "xgb_default",
+      "model_type": "XGBClassifier",
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 6,
+        "random_state": 42,
+        "eval_metric": "logloss"
+      },
+      "score": 0.9,
+      "training_time": 0.47,
+      "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\xgb_default.joblib"
+    },
+    {
+      "model_id": "xgb_tuned",
+      "model_type": "XGBClassifier",
+      "params": {
+        "n_estimators": 200,
+        "max_depth": 8,
+        "learning_rate": 0.05,
+        "random_state": 42,
+        "eval_metric": "logloss"
+      },
+      "score": 0.9,
+      "training_time": 0.5,
+      "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\xgb_tuned.joblib"
+    },
+    {
+      "model_id": "lgbm_default",
+      "model_type": "LGBMClassifier",
+      "params": {
+        "n_estimators": 100,
+        "random_state": 42,
+        "verbose": -1
+      },
+      "score": 0.9,
+      "training_time": 1.52,
+      "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\lgbm_default.joblib"
+    }
+  ],
+  "session": {
+    "run_id": "b1fda245",
+    "dataset_id": "uciml/iris",
+    "config": {
+      "mock_mode": false,
+      "use_llm": true
+    },
+    "status": "completed",
+    "created_at": "2025-11-18T00:40:25.194939",
+    "steps": [
+      {
+        "status": "data_loaded",
+        "timestamp": "2025-11-18T00:40:45.613468",
+        "data": {
+          "shape": [
+            147,
+            5
+          ]
+        }
+      },
+      {
+        "status": "models_proposed",
+        "timestamp": "2025-11-18T00:40:59.437197",
+        "data": {
+          "count": 6
+        }
+      }
+    ],
+    "results": {
+      "best_model": {
+        "model_id": "rf_default",
+        "model_type": "RandomForestClassifier",
+        "params": {
+          "n_estimators": 100,
+          "max_depth": 10,
+          "random_state": 42
+        },
+        "score": 0.9333,
+        "training_time": 0.28,
+        "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\rf_default.joblib",
+        "timestamp": "2025-11-18T00:41:01.238591"
+      },
+      "all_results": [
+        {
+          "model_id": "rf_default",
+          "model_type": "RandomForestClassifier",
+          "params": {
+            "n_estimators": 100,
+            "max_depth": 10,
+            "random_state": 42
+          },
+          "score": 0.9333,
+          "training_time": 0.28,
+          "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\rf_default.joblib",
+          "timestamp": "2025-11-18T00:41:01.238591"
+        },
+        {
+          "model_id": "rf_deep",
+          "model_type": "RandomForestClassifier",
+          "params": {
+            "n_estimators": 200,
+            "max_depth": 20,
+            "random_state": 42
+          },
+          "score": 0.9333,
+          "training_time": 0.42,
+          "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\rf_deep.joblib"
+        },
+        {
+          "model_id": "logreg",
+          "model_type": "LogisticRegression",
+          "params": {
+            "max_iter": 1000,
+            "random_state": 42
+          },
+          "score": 0.9333,
+          "training_time": 0.03,
+          "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\logreg.joblib"
+        },
+        {
+          "model_id": "xgb_default",
+          "model_type": "XGBClassifier",
+          "params": {
+            "n_estimators": 100,
+            "max_depth": 6,
+            "random_state": 42,
+            "eval_metric": "logloss"
+          },
+          "score": 0.9,
+          "training_time": 0.47,
+          "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\xgb_default.joblib"
+        },
+        {
+          "model_id": "xgb_tuned",
+          "model_type": "XGBClassifier",
+          "params": {
+            "n_estimators": 200,
+            "max_depth": 8,
+            "learning_rate": 0.05,
+            "random_state": 42,
+            "eval_metric": "logloss"
+          },
+          "score": 0.9,
+          "training_time": 0.5,
+          "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\xgb_tuned.joblib"
+        },
+        {
+          "model_id": "lgbm_default",
+          "model_type": "LGBMClassifier",
+          "params": {
+            "n_estimators": 100,
+            "random_state": 42,
+            "verbose": -1
+          },
+          "score": 0.9,
+          "training_time": 1.52,
+          "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\lgbm_default.joblib"
+        }
+      ]
+    },
+    "metadata": {},
+    "updated_at": "2025-11-18T00:41:01.239636"
+  }
+}

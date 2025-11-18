@@ -1,0 +1,289 @@
+{
+  "demo-dataset": [
+    {
+      "model_id": "rf_deep",
+      "model_type": "RandomForestClassifier",
+      "params": {
+        "n_estimators": 200,
+        "max_depth": 20,
+        "random_state": 42
+      },
+      "score": 0.595,
+      "training_time": 0.66,
+      "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\rf_deep.joblib",
+      "timestamp": "2025-11-17T01:12:56.945225"
+    }
+  ],
+  "yasserh/titanic-dataset": [
+    {
+      "model_id": "logreg",
+      "model_type": "LogisticRegression",
+      "params": {
+        "max_iter": 1000,
+        "random_state": 42
+      },
+      "score": 0.6993,
+      "training_time": 0.05,
+      "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\logreg.joblib",
+      "timestamp": "2025-11-17T20:41:47.216799"
+    },
+    {
+      "model_id": "lgbm_default",
+      "model_type": "LGBMClassifier",
+      "params": {
+        "n_estimators": 100,
+        "random_state": 42,
+        "verbose": -1
+      },
+      "score": 0.6875,
+      "training_time": 1.45,
+      "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\lgbm_default.joblib",
+      "timestamp": "2025-11-18T00:16:51.440903"
+    },
+    {
+      "model_id": "rf_deep",
+      "model_type": "RandomForestClassifier",
+      "params": {
+        "n_estimators": 200,
+        "max_depth": 20,
+        "random_state": 42
+      },
+      "score": 0.595,
+      "training_time": 0.71,
+      "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\rf_deep.joblib",
+      "timestamp": "2025-11-17T19:31:52.860411"
+    },
+    {
+      "model_id": "rf_deep",
+      "model_type": "RandomForestClassifier",
+      "params": {
+        "n_estimators": 200,
+        "max_depth": 20,
+        "random_state": 42
+      },
+      "score": 0.595,
+      "training_time": 0.68,
+      "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\rf_deep.joblib",
+      "timestamp": "2025-11-17T20:11:35.324258"
+    },
+    {
+      "model_id": "rf_deep",
+      "model_type": "RandomForestClassifier",
+      "params": {
+        "n_estimators": 200,
+        "max_depth": 20,
+        "random_state": 42
+      },
+      "score": 0.595,
+      "training_time": 0.68,
+      "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\rf_deep.joblib",
+      "timestamp": "2025-11-17T20:15:46.818916"
+    }
+  ],
+  "umerhaddii/shopify-stock-data-2025": [
+    {
+      "model_id": "rf_deep",
+      "model_type": "RandomForestClassifier",
+      "params": {
+        "n_estimators": 200,
+        "max_depth": 20,
+        "random_state": 42
+      },
+      "score": 0.595,
+      "training_time": 0.66,
+      "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\rf_deep.joblib",
+      "timestamp": "2025-11-17T19:33:24.151800"
+    },
+    {
+      "model_id": "rf_deep",
+      "model_type": "RandomForestClassifier",
+      "params": {
+        "n_estimators": 200,
+        "max_depth": 20,
+        "random_state": 42
+      },
+      "score": 0.595,
+      "training_time": 0.67,
+      "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\rf_deep.joblib",
+      "timestamp": "2025-11-17T20:12:12.178896"
+    },
+    {
+      "model_id": "rf_deep",
+      "model_type": "RandomForestClassifier",
+      "params": {
+        "n_estimators": 200,
+        "max_depth": 20,
+        "random_state": 42
+      },
+      "score": 0.595,
+      "training_time": 0.65,
+      "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\rf_deep.joblib",
+      "timestamp": "2025-11-17T20:32:01.299461"
+    },
+    {
+      "model_id": "rf_deep",
+      "model_type": "RandomForestClassifier",
+      "params": {
+        "n_estimators": 200,
+        "max_depth": 20,
+        "random_state": 42
+      },
+      "score": 0.595,
+      "training_time": 0.66,
+      "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\rf_deep.joblib",
+      "timestamp": "2025-11-17T21:03:33.890639"
+    },
+    {
+      "model_id": "rf_deep",
+      "model_type": "RandomForestClassifier",
+      "params": {
+        "n_estimators": 200,
+        "max_depth": 20,
+        "random_state": 42
+      },
+      "score": 0.595,
+      "training_time": 0.65,
+      "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\rf_deep.joblib",
+      "timestamp": "2025-11-17T23:17:15.839273"
+    }
+  ],
+  "umerhaddii/shopify-stock-2025": [
+    {
+      "model_id": "rf_deep",
+      "model_type": "RandomForestClassifier",
+      "params": {
+        "n_estimators": 200,
+        "max_depth": 20,
+        "random_state": 42
+      },
+      "score": 0.595,
+      "training_time": 0.65,
+      "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\rf_deep.joblib",
+      "timestamp": "2025-11-17T21:01:14.825710"
+    }
+  ],
+  "owid/covid-19-data": [
+    {
+      "model_id": "rf_deep",
+      "model_type": "RandomForestClassifier",
+      "params": {
+        "n_estimators": 200,
+        "max_depth": 20,
+        "random_state": 42
+      },
+      "score": 0.595,
+      "training_time": 0.67,
+      "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\rf_deep.joblib",
+      "timestamp": "2025-11-18T00:24:45.599269"
+    }
+  ],
+  "ahmedarafat22/owid-covid-data": [
+    {
+      "model_id": "rf_deep",
+      "model_type": "RandomForestClassifier",
+      "params": {
+        "n_estimators": 200,
+        "max_depth": 20,
+        "random_state": 42
+      },
+      "score": 0.595,
+      "training_time": 0.65,
+      "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\rf_deep.joblib",
+      "timestamp": "2025-11-18T00:26:49.190118"
+    }
+  ],
+  "uciml/iris": [
+    {
+      "model_id": "rf_default",
+      "model_type": "RandomForestClassifier",
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 10,
+        "random_state": 42
+      },
+      "score": 0.9333,
+      "training_time": 0.28,
+      "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\rf_default.joblib",
+      "timestamp": "2025-11-18T00:41:01.238591"
+    },
+    {
+      "model_id": "rf_default",
+      "model_type": "RandomForestClassifier",
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 10,
+        "random_state": 42
+      },
+      "score": 0.9333,
+      "training_time": 0.27,
+      "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\rf_default.joblib",
+      "shape": [
+        147,
+        5
+      ],
+      "timestamp": "2025-11-18T23:42:18.479362"
+    }
+  ],
+  "blastchar/telco-customer-churn": [
+    {
+      "model_id": "rf_default",
+      "model_type": "RandomForestClassifier",
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 10,
+        "random_state": 42
+      },
+      "score": 0.7993,
+      "training_time": 0.61,
+      "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\rf_default.joblib",
+      "timestamp": "2025-11-18T00:51:19.796532"
+    }
+  ],
+  "iammustafatz/diabetes-prediction-dataset": [
+    {
+      "model_id": "rf_default",
+      "model_type": "RandomForestClassifier",
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 10,
+        "random_state": 42
+      },
+      "score": 0.968,
+      "training_time": 0.5,
+      "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\rf_default.joblib",
+      "timestamp": "2025-11-18T00:53:20.853816"
+    },
+    {
+      "model_id": "rf_default",
+      "model_type": "RandomForestClassifier",
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 10,
+        "random_state": 42
+      },
+      "score": 0.968,
+      "training_time": 0.53,
+      "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\rf_default.joblib",
+      "shape": [
+        96146,
+        9
+      ],
+      "timestamp": "2025-11-18T23:58:12.997511"
+    }
+  ],
+  "johnsmith88/heart-disease-dataset": [
+    {
+      "model_id": "rf_default",
+      "model_type": "RandomForestClassifier",
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 10,
+        "random_state": 42
+      },
+      "score": 0.8525,
+      "training_time": 0.31,
+      "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\rf_default.joblib",
+      "timestamp": "2025-11-18T00:55:08.860793"
+    }
+  ]
+}

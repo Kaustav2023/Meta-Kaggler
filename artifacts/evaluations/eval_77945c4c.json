@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-11-18T23:42:18.480647",
+  "run_id": "77945c4c",
+  "dataset_id": "uciml/iris",
+  "agents_evaluated": {
+    "DataAgent": {
+      "agent": "DataAgent",
+      "metrics": {
+        "data_loaded": false,
+        "dataset_id": "uciml/iris",
+        "rows": 147
+      },
+      "score": 0.5,
+      "status": "WARN"
+    },
+    "PreprocessingAgent": {
+      "agent": "PreprocessingAgent",
+      "metrics": {
+        "original_features": 0,
+        "final_features": 5,
+        "dimensionality_reduction": -5.0,
+        "rows_retained": 1.0
+      },
+      "score": 1.0,
+      "status": "PASS"
+    },
+    "ModelAgent": {
+      "agent": "ModelAgent",
+      "metrics": {
+        "proposals_count": 6,
+        "model_types": [
+          "LGBMClassifier",
+          "RandomForestClassifier",
+          "LogisticRegression",
+          "XGBClassifier"
+        ],
+        "diversity": 4,
+        "best_model_score": 0.9333
+      },
+      "score": 1.0,
+      "status": "PASS"
+    },
+    "TrainingAgent": {
+      "agent": "TrainingAgent",
+      "metrics": {
+        "models_trained": 6,
+        "success_rate": 1.0,
+        "best_model": "rf_default",
+        "best_score": 0.9333,
+        "avg_training_time": 0.55
+      },
+      "score": 1.0,
+      "status": "PASS"
+    }
+  },
+  "overall_score": 0.88,
+  "recommendations": [
+    "\u26a0\ufe0f  DataAgent scored 0.5: Review decision logic",
+    "\u2705 PreprocessingAgent performing excellently (1.0)",
+    "\u2705 ModelAgent performing excellently (1.0)",
+    "\u2705 TrainingAgent performing excellently (1.0)",
+    "\ud83c\udfc6 Overall agent system performing well - ready for production"
+  ]
+}

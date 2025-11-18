@@ -1,0 +1,301 @@
+{
+  "run_id": "6b6bbdfc",
+  "dataset_id": "iammustafatz/diabetes-prediction-dataset",
+  "best_model": {
+    "model_id": "rf_default",
+    "model_type": "RandomForestClassifier",
+    "params": {
+      "n_estimators": 100,
+      "max_depth": 10,
+      "random_state": 42
+    },
+    "score": 0.968,
+    "training_time": 0.53,
+    "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\rf_default.joblib",
+    "shape": [
+      96146,
+      9
+    ],
+    "timestamp": "2025-11-18T23:58:12.997511"
+  },
+  "all_results": [
+    {
+      "model_id": "rf_default",
+      "model_type": "RandomForestClassifier",
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 10,
+        "random_state": 42
+      },
+      "score": 0.968,
+      "training_time": 0.53,
+      "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\rf_default.joblib",
+      "shape": [
+        96146,
+        9
+      ],
+      "timestamp": "2025-11-18T23:58:12.997511"
+    },
+    {
+      "model_id": "xgb_tuned",
+      "model_type": "XGBClassifier",
+      "params": {
+        "n_estimators": 200,
+        "max_depth": 8,
+        "learning_rate": 0.05,
+        "random_state": 42,
+        "eval_metric": "logloss"
+      },
+      "score": 0.9675,
+      "training_time": 0.35,
+      "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\xgb_tuned.joblib"
+    },
+    {
+      "model_id": "xgb_default",
+      "model_type": "XGBClassifier",
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 6,
+        "random_state": 42,
+        "eval_metric": "logloss"
+      },
+      "score": 0.966,
+      "training_time": 0.22,
+      "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\xgb_default.joblib"
+    },
+    {
+      "model_id": "rf_deep",
+      "model_type": "RandomForestClassifier",
+      "params": {
+        "n_estimators": 200,
+        "max_depth": 20,
+        "random_state": 42
+      },
+      "score": 0.966,
+      "training_time": 0.92,
+      "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\rf_deep.joblib"
+    },
+    {
+      "model_id": "lgbm_default",
+      "model_type": "LGBMClassifier",
+      "params": {
+        "n_estimators": 100,
+        "random_state": 42,
+        "verbose": -1
+      },
+      "score": 0.9655,
+      "training_time": 1.41,
+      "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\lgbm_default.joblib"
+    },
+    {
+      "model_id": "logreg",
+      "model_type": "LogisticRegression",
+      "params": {
+        "max_iter": 1000,
+        "random_state": 42
+      },
+      "score": 0.954,
+      "training_time": 0.19,
+      "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\logreg.joblib"
+    }
+  ],
+  "session": {
+    "run_id": "6b6bbdfc",
+    "dataset_id": "iammustafatz/diabetes-prediction-dataset",
+    "config": {
+      "mock_mode": false,
+      "use_llm": true
+    },
+    "status": "completed",
+    "created_at": "2025-11-18T23:57:49.603489",
+    "steps": [
+      {
+        "status": "data_loaded",
+        "timestamp": "2025-11-18T23:58:03.591628",
+        "data": {
+          "shape": [
+            96146,
+            9
+          ],
+          "shape_original": [
+            96146,
+            9
+          ]
+        }
+      },
+      {
+        "status": "models_proposed",
+        "timestamp": "2025-11-18T23:58:11.351669",
+        "data": {
+          "count": 6
+        }
+      }
+    ],
+    "results": {
+      "best_model": {
+        "model_id": "rf_default",
+        "model_type": "RandomForestClassifier",
+        "params": {
+          "n_estimators": 100,
+          "max_depth": 10,
+          "random_state": 42
+        },
+        "score": 0.968,
+        "training_time": 0.53,
+        "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\rf_default.joblib",
+        "shape": [
+          96146,
+          9
+        ],
+        "timestamp": "2025-11-18T23:58:12.997511"
+      },
+      "all_results": [
+        {
+          "model_id": "rf_default",
+          "model_type": "RandomForestClassifier",
+          "params": {
+            "n_estimators": 100,
+            "max_depth": 10,
+            "random_state": 42
+          },
+          "score": 0.968,
+          "training_time": 0.53,
+          "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\rf_default.joblib",
+          "shape": [
+            96146,
+            9
+          ],
+          "timestamp": "2025-11-18T23:58:12.997511"
+        },
+        {
+          "model_id": "xgb_tuned",
+          "model_type": "XGBClassifier",
+          "params": {
+            "n_estimators": 200,
+            "max_depth": 8,
+            "learning_rate": 0.05,
+            "random_state": 42,
+            "eval_metric": "logloss"
+          },
+          "score": 0.9675,
+          "training_time": 0.35,
+          "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\xgb_tuned.joblib"
+        },
+        {
+          "model_id": "xgb_default",
+          "model_type": "XGBClassifier",
+          "params": {
+            "n_estimators": 100,
+            "max_depth": 6,
+            "random_state": 42,
+            "eval_metric": "logloss"
+          },
+          "score": 0.966,
+          "training_time": 0.22,
+          "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\xgb_default.joblib"
+        },
+        {
+          "model_id": "rf_deep",
+          "model_type": "RandomForestClassifier",
+          "params": {
+            "n_estimators": 200,
+            "max_depth": 20,
+            "random_state": 42
+          },
+          "score": 0.966,
+          "training_time": 0.92,
+          "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\rf_deep.joblib"
+        },
+        {
+          "model_id": "lgbm_default",
+          "model_type": "LGBMClassifier",
+          "params": {
+            "n_estimators": 100,
+            "random_state": 42,
+            "verbose": -1
+          },
+          "score": 0.9655,
+          "training_time": 1.41,
+          "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\lgbm_default.joblib"
+        },
+        {
+          "model_id": "logreg",
+          "model_type": "LogisticRegression",
+          "params": {
+            "max_iter": 1000,
+            "random_state": 42
+          },
+          "score": 0.954,
+          "training_time": 0.19,
+          "artifact_path": "C:\\Users\\K99\\kaggle-companion\\artifacts\\models\\logreg.joblib"
+        }
+      ]
+    },
+    "metadata": {},
+    "updated_at": "2025-11-18T23:58:12.998961"
+  },
+  "evaluation": {
+    "timestamp": "2025-11-18T23:58:12.998961",
+    "run_id": "6b6bbdfc",
+    "dataset_id": "iammustafatz/diabetes-prediction-dataset",
+    "agents_evaluated": {
+      "DataAgent": {
+        "agent": "DataAgent",
+        "metrics": {
+          "data_loaded": false,
+          "dataset_id": "iammustafatz/diabetes-prediction-dataset",
+          "rows": 96146
+        },
+        "score": 0.5,
+        "status": "WARN"
+      },
+      "PreprocessingAgent": {
+        "agent": "PreprocessingAgent",
+        "metrics": {
+          "original_features": 0,
+          "final_features": 9,
+          "dimensionality_reduction": -9.0,
+          "rows_retained": 1.0
+        },
+        "score": 1.0,
+        "status": "PASS"
+      },
+      "ModelAgent": {
+        "agent": "ModelAgent",
+        "metrics": {
+          "proposals_count": 6,
+          "model_types": [
+            "RandomForestClassifier",
+            "LGBMClassifier",
+            "LogisticRegression",
+            "XGBClassifier"
+          ],
+          "diversity": 4,
+          "best_model_score": 0.968
+        },
+        "score": 1.0,
+        "status": "PASS"
+      },
+      "TrainingAgent": {
+        "agent": "TrainingAgent",
+        "metrics": {
+          "models_trained": 6,
+          "success_rate": 1.0,
+          "best_model": "rf_default",
+          "best_score": 0.968,
+          "avg_training_time": 0.6
+        },
+        "score": 1.0,
+        "status": "PASS"
+      }
+    },
+    "overall_score": 0.88,
+    "recommendations": [
+      "\u26a0\ufe0f  DataAgent scored 0.5: Review decision logic",
+      "\u2705 PreprocessingAgent performing excellently (1.0)",
+      "\u2705 ModelAgent performing excellently (1.0)",
+      "\u2705 TrainingAgent performing excellently (1.0)",
+      "\ud83c\udfc6 Overall agent system performing well - ready for production"
+    ]
+  }
+}
